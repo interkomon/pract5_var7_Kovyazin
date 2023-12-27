@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignInActivity"
+    android:background="@color/teal_700">
+
+
+    <ImageView
+        android:layout_width="228dp"
+        android:layout_height="212dp"
+        android:src="@drawable/icon"
+        app:layout_constraintBottom_toTopOf="@+id/login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="90dp">
+
+    </ImageView>
+
+
+    <EditText
+        android:id="@+id/login"
+        android:layout_width="285dp"
+        android:layout_height="46dp"
+        android:layout_marginLeft="-250dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginBottom="4dp"
+        android:hint="@string/login"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="285dp"
+        android:layout_height="46dp"
+        android:layout_marginLeft="-285dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginBottom="88dp"
+        android:hint="Введите пароль"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20dp"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/buttonsignin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rejim"
+        android:textSize="24dp"
+        android:layout_marginLeft="-285dp"
+        android:layout_marginTop="430dp"
+        android:textColor="@color/black"
+        android:textStyle="italic"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="279dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="-190dp"
+        android:layout_marginTop="490dp"
+        android:entries="@array/spin"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+
+        >
+
+    </Spinner>
+
+    <Button
+        android:id="@+id/buttonsignin"
+        android:layout_width="283dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="-280dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginBottom="28dp"
+        android:text="@string/sign"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonsigninguest"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </Button>
+
+
+</LinearLayout>

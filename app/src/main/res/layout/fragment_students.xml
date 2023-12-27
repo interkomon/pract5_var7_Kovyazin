@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.StudentsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/students"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+    <Button
+        android:id="@+id/buttonexit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="350dp"
+    android:background="@color/teal_700"
+        android:text="🔙"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp">
+
+    </Button>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleviewstudents"
+        android:layout_width="match_parent"
+        android:layout_height="396dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="150dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/addstudent"
+        android:layout_width="298dp"
+        android:text="@string/addstudent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="550dp">
+
+    </Button>
+
+</FrameLayout>

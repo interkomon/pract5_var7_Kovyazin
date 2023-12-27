@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <ImageView
+        android:id="@+id/studentimage"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/studentnametext"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/studentbirthdaytext"
+        android:layout_width="300dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/studentcurstext"
+        android:layout_width="300dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/studentspecialitytext"
+        android:layout_width="300dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/byudjettext"
+        android:layout_width="300dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black" />
+
+
+    <Button
+        android:id="@+id/delbuttonstudent"
+        android:layout_width="35dp"
+        android:layout_height="36dp"
+        android:text="@string/del"
+        android:layout_marginLeft="325dp"
+        android:layout_marginTop="-85dp">
+
+    </Button>
+    <Button
+        android:id="@+id/editbuttonstudent"
+        android:layout_width="35dp"
+        android:layout_height="36dp"
+        android:text="@string/edit"
+        android:layout_marginLeft="325dp"
+        >
+
+    </Button>
+</LinearLayout>

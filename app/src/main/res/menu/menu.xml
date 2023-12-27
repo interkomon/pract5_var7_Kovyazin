@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_students"
+        android:icon="@drawable/imgstudents"
+        android:title="Студенты" />
+
+    <item
+        android:id="@+id/navigation_teachers"
+        android:icon="@drawable/imgteachers"
+        android:title="Преподователи" />
+    <item
+        android:id="@+id/navigation_specialities"
+        android:icon="@drawable/imgspecialities"
+        android:title="Специальности"/>
+</menu>

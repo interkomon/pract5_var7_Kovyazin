@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddStudent"
+    android:background="@color/teal_700"
+    android:orientation="vertical">
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Добавление студента"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black">
+
+    </TextView>
+
+
+    <EditText
+        android:id="@+id/studentnameEdiText"
+        android:layout_width="match_parent"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:hint="ФИО студента"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZйцукенгшщзхфывапролджэячсмитьбюЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЯЧСМИТЬБЮ"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/imageEditText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        android:layout_marginTop="16dp"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:hint="Ссылка на изображение"/>
+
+    <EditText
+        android:id="@+id/birthdayEditText"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:text="Нажмите на кнопку справа, чтобы выбрать дату:"
+        android:textColor="@color/black"
+        android:enabled="false"
+        android:textColorHint="@color/black">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/calendarButton"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="-40dp"
+        android:background="@color/teal_700"
+        android:text="📆"
+        android:textColor="@color/black"
+        android:textSize="25dp">
+
+    </Button>
+
+    <Spinner
+        android:id="@+id/groupSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/cursEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:inputType="number"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp"
+        android:hint="Курс"/>
+
+    <CheckBox
+        android:id="@+id/byudjetcheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="16dp"
+        android:text="Бюджет"/>
+
+
+
+    <Button
+        android:id="@+id/addStudentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Добавить cтудента"/>
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="10dp">
+
+    <TextView
+        android:text="prov"
+        android:id="@+id/teachernametext"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:layout_marginLeft="5dp"
+
+        android:textStyle="bold"/>
+    <TextView
+        android:text="prov"
+        android:id="@+id/teacherspecialitutext"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textSize="16dp"
+        android:layout_marginLeft="5dp"
+         />
+    <TextView
+        android:text="prov"
+        android:id="@+id/teachersalarytext"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textSize="16dp"
+        android:layout_marginLeft="5dp"
+        />
+    <TextView
+        android:text="prov"
+        android:id="@+id/teacherperyeartext"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textSize="16dp"
+        android:layout_marginLeft="5dp"
+         />
+
+
+    <Button
+        android:id="@+id/delbuttonteacher"
+        android:layout_width="35dp"
+        android:layout_height="36dp"
+        android:text="@string/del"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="-85dp">
+
+    </Button>
+    <Button
+        android:id="@+id/editbuttonteacher"
+        android:layout_width="35dp"
+        android:layout_height="36dp"
+        android:text="@string/edit"
+        android:layout_marginLeft="310dp"
+        >
+
+    </Button>
+
+
+</LinearLayout>
